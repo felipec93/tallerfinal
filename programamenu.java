@@ -85,8 +85,9 @@ public class programamenu {
 		case 15 :
 			new ejer014().main(args);
 			break;
-		}
-			try 
+			
+			default :
+		    try 
 			{
 			Runtime.getRuntime().exec(comando);
 			}
@@ -99,4 +100,5 @@ public class programamenu {
 		
 	}
 	}
+}
 }
